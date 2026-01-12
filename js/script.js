@@ -33,11 +33,11 @@ else {
 // Grading system end here
 
 
-// Males Marrige System  in Bangladesh 
+// Males Marriage System  in Bangladesh 
 
 let gender = 'Male';
 let minIncome = 100000;
-let location = "Dhaka";
+let address = "Dhaka";
 let age = 21;
 let jobCriteria = "governmentJob";
 
@@ -45,9 +45,9 @@ if(gender!== 'Male'){
     console.log('Ohh , We are looking or a perfect Male candidate in planet Earth. You just leave!!!')
 }
 else if(minIncome < 100000 ){
-    console.log('You are too poor to marry. Income ennough money first.')
+    console.log('You are too poor to marry. Income enough money first.')
 }
-else if(location !== 'Dhaka'){
+else if(address !== 'Dhaka'){
     console.log('Only Dhakaiya pola needed.')
 }
 else if(age < 21){
